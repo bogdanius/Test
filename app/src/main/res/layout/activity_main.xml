@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity">
+
+    <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+    <EditText
+            android:layout_centerInParent="true"
+            android:id="@+id/et_input_value"
+            android:hint="Type text this"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:text="Go to next Activity"
+            android:id="@+id/bt_set_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_input_value"
+            android:layout_centerHorizontal="true"/>
+
+    <Button
+            android:text="Go to next Activity with Parcel"
+            android:id="@+id/bt_parcel_set_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_set_value"
+            android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
