@@ -1,0 +1,7 @@
+Facebook:
+App ID: 731063090338173
+App Secret: 2662d3ceeea2bd05843a4edda6be9be1
+
+to generate
+keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | openssl sha1 -binary | openssl base64
+hash: KN/i/OGDxXA4dkKO/m75yxwtIp0=
