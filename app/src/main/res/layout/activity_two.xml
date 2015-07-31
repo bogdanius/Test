@@ -2,10 +2,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
+    <ImageView
+            android:src="@android:drawable/ic_delete"
+            android:id="@+id/image_view_two_activity"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
     <TextView
+            android:layout_below="@+id/image_view_two_activity"
+            android:layout_centerHorizontal="true"
             android:textColor="@color/abc_search_url_text"
             android:text="TextView"
-            android:layout_centerInParent="true"
             android:id="@+id/tv_card_value"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
