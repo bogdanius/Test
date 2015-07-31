@@ -12,7 +12,6 @@
     <TextView
             android:layout_below="@+id/image_view_two_activity"
             android:layout_centerHorizontal="true"
-            android:textColor="@color/abc_search_url_text"
             android:text="TextView"
             android:id="@+id/tv_card_value"
             android:layout_width="wrap_content"

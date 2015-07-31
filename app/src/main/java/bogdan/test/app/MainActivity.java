@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.*;
 import android.widget.Button;
+import bogdan.test.app.model.MyObject;
+import bogdan.test.app.model.MyObject2;
 
 
 public class MainActivity extends Activity implements View.OnClickListener {
@@ -26,6 +28,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         switch (view.getId()) {
             case R.id.button_go:
                 Intent intent = new Intent(this, SecondActivity.class);
+                intent.putExtra("myObject", new MyObject2(this));
                 startActivity(intent);
                 break;
         }
